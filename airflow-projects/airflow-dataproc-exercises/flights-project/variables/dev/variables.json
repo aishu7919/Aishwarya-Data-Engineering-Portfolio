@@ -1,0 +1,11 @@
+{
+    "env": "dev",
+    "gcs_bucket": "aishwarya-dataproc-exercise1-7919",
+    "bq_project": "clouddataengg",
+    "bq_dataset": "flight_data_dev",
+    {
+  "transformed_table": "flight_booking_transformed",
+  "route_insights_table": "route_insights",
+  "origin_insights_table": "origin_insights"
+}
+}
