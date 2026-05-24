@@ -1,0 +1,18 @@
+Ecommerce Medallion Architecture
+
+Trigger JSON Files
+        ↓
+Master Orchestration Notebook
+        ↓
+Bronze / Stage Layer
+(Orders, Customers, Products, Inventory, Shipping)
+        ↓
+Data Validation Layer
+        ↓
+Silver Layer
+(Integrated Business Dataset)
+        ↓
+Gold Layer
+(Business KPIs & Analytics)
+        ↓
+Databricks Workflow Execution
